@@ -36,6 +36,7 @@ printf "Today is %s\n" "$(date)"
 #Print unique identifier last
 echo "User ID = $ID"
 
+#Put it all in a .csv file
 answers=`echo "$varname,$varage,$varclass,$varanim,$varcol,$(date),$ID"`
 echo "$answers" >> data.csv
 
